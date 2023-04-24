@@ -1,8 +1,8 @@
 RewriteEngine On
 
-RewriteCond %{HTTP_HOST} ^d-themes.com$
+RewriteCond %{HTTP_HOST} ^taxvui.github.io$
 RewriteCond %{HTTP} off
-RewriteRule ^(.*)$ https://d-themes.com/react/riode/demo-1/$1 [NC,R,L]
+RewriteRule ^(.*)$ https://taxvui.github.io/react-nextjs-riode/$1 [NC,R,L]
 
 # If an existing asset or directory is requested go to it as it is
 RewriteRule ^shop/grid/(3cols|4cols|5cols|6cols|7cols|8cols) shop/grid/[grid]/index.html?grid=$1 [L]
